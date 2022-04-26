@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { VaishnaviComponent } from './vaishnavi.component';
+import { PostListComponent } from './post-list.component';
 
-describe('VaishnaviComponent', () => {
-  let component: VaishnaviComponent;
-  let fixture: ComponentFixture<VaishnaviComponent>;
+describe('PostListComponent', () => {
+  let component: PostListComponent;
+  let fixture: ComponentFixture<PostListComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ VaishnaviComponent ]
+      declarations: [ PostListComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(VaishnaviComponent);
+    fixture = TestBed.createComponent(PostListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
